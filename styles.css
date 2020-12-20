@@ -1,0 +1,28 @@
+body {
+  font-family: "Spartan", Calibri, sans-serif;
+}
+
+p {
+  font-size: 1rem;
+}
+
+/* Nav Bar Styling */
+a {
+}
+
+/* Home Page Styling */
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+header h2 {
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+
+#about {
+  border: 4px black;
+  border-style: solid solid solid none;
+  padding: 2rem;
+}
