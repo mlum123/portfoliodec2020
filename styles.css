@@ -7,7 +7,17 @@ p {
 }
 
 /* Header Styling for all sub-pages */
+#subpage-header {
+  border: 4px black;
+  border-style: none solid solid solid;
+}
+
 h3 {
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -68,11 +78,6 @@ header h2 {
 }
 
 /* Experience Page Styling */
-#tech-experience-header {
-  border: 4px black;
-  border-style: none solid solid solid;
-}
-
 #journalism-experience-header,
 #on-campus-header {
   margin-top: 2rem;
@@ -80,18 +85,34 @@ header h2 {
   border-style: solid solid none solid;
 }
 
-h4 {
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
-.card {
+#tech-experience .card,
+#journalism-experience .card,
+#on-campus .card {
   margin: 1rem 0;
   padding: 1.25rem;
   box-shadow: 0px 0.5px 10px #999;
 }
 
-.card img {
+#tech-experience .card img,
+#journalism-experience .card img,
+#on-campus .card img {
   max-width: 200px;
   margin: 1rem;
+}
+
+/* Tech Projects Page Styling */
+#tech-projects .card {
+  margin: 1rem 1rem;
+  padding: 1.25rem;
+  box-shadow: 0px 0.5px 10px #999;
+  transition: all 2s ease-in;
+}
+
+#tech-projects .card-img-top {
+  margin-bottom: 1rem;
+}
+
+.modal-img {
+  max-width: 400px;
+  margin: 1.5rem 0;
 }
