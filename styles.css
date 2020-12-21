@@ -91,6 +91,8 @@ header h2 {
   margin: 1rem 0;
   padding: 1.25rem;
   box-shadow: 0px 0.5px 10px #999;
+  /*transform: translateY(4em);*/
+  transition: all 0.8s ease-in;
 }
 
 #tech-experience .card img,
@@ -100,19 +102,66 @@ header h2 {
   margin: 1rem;
 }
 
+.not-visible {
+  opacity: 0;
+}
+
+.is-visible {
+  opacity: 1;
+  transform: translateY(-0.7em);
+}
+
 /* Tech Projects Page Styling */
 #tech-projects .card {
   margin: 1rem 1rem;
   padding: 1.25rem;
   box-shadow: 0px 0.5px 10px #999;
-  transition: all 2s ease-in;
+  transition: all 0.2s ease-in-out;
 }
 
 #tech-projects .card-img-top {
   margin-bottom: 1rem;
 }
 
-.modal-img {
-  max-width: 400px;
+.modal-img,
+#tech-projects video {
+  max-width: 550px;
   margin: 1.5rem 0;
+}
+
+@media only screen and (max-width: 992px) {
+  .modal-img,
+  #tech-projects video {
+    max-width: 400px;
+  }
+}
+
+.close,
+.close:focus,
+.close:active,
+.close:focus {
+  outline: none;
+  box-shadow: none;
+  border: 0px;
+  background-color: white;
+}
+
+#tech-projects h5 {
+  font-size: 0.9rem;
+}
+
+/*
+TODOmakes it spazz out when you open modal
+
+#tech-projects .card:hover {
+  transform: scale(1.05);
+}
+*/
+
+.btn {
+  font-style: italic;
+}
+
+.btn:hover {
+  font-weight: bold;
 }
