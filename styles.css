@@ -77,6 +77,12 @@ header h2 {
   padding: 2rem;
 }
 
+@media only screen and (max-width: 768px) {
+  #about {
+    border: none;
+  }
+}
+
 /* Experience Page Styling */
 #journalism-experience-header,
 #on-campus-header {
@@ -91,7 +97,6 @@ header h2 {
   margin: 1rem 0;
   padding: 1.25rem;
   box-shadow: 0px 0.5px 10px #999;
-  /*transform: translateY(4em);*/
   transition: all 0.8s ease-in;
 }
 
@@ -159,5 +164,64 @@ header h2 {
 }
 
 .btn:hover {
+  font-weight: bold;
+}
+
+/* Design Page Styling */
+#design .card {
+  margin: 1rem 0;
+  padding: 1.25rem;
+  box-shadow: 0px 0.5px 10px #999;
+  transition: all 0.8s ease-in;
+}
+
+#design .card-img {
+  margin: 1rem;
+}
+
+#design p {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+#epicdesign .vert-img,
+#promodesign .vert-img {
+  max-width: 220px;
+}
+
+#promodesign .sq-img {
+  max-width: 300px;
+}
+
+#promodesign .hor-img {
+  max-width: 350px;
+}
+
+/* Photo Page Styling */
+#photo .card {
+  margin: 1rem 0;
+  padding: 1.25rem;
+  box-shadow: 0px 0.5px 10px #999;
+  transition: all 0.8s ease-in;
+}
+#photo .card-img {
+  margin: 1rem;
+}
+
+/* Contact Page Styling */
+#contact {
+  border: 4px black;
+  border-style: solid none solid solid;
+  padding: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #contact {
+    border: none;
+  }
+}
+
+#contact-info h2 {
+  font-size: 1rem;
   font-weight: bold;
 }
