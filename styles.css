@@ -113,10 +113,14 @@ header h2 {
 
 /* Tech Projects Page Styling */
 #tech-projects .card {
-  margin: 1rem 1rem;
+  margin: 0 1rem;
   padding: 1.25rem;
   box-shadow: 0px 0.5px 10px #999;
   transition: all 0.2s ease-in-out;
+}
+
+#tech-projects .card-group {
+  margin: 2rem 0;
 }
 
 #tech-projects .card-img-top {
@@ -149,14 +153,6 @@ header h2 {
 #tech-projects h5 {
   font-size: 0.9rem;
 }
-
-/*
-TODOmakes it spazz out when you open modal
-
-#tech-projects .card:hover {
-  transform: scale(1.05);
-}
-*/
 
 .btn {
   font-style: italic;
