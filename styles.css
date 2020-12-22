@@ -138,10 +138,17 @@ header h2 {
   margin: 1.5rem 0;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 769px) and (max-width: 992px) {
   .modal-img,
   #tech-projects video {
     max-width: 400px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .modal-img,
+  #tech-projects video {
+    max-width: 350px;
   }
 }
 
