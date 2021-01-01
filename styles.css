@@ -118,6 +118,10 @@ h1 {
 }
 
 /* Tech Projects Page Styling */
+#tech-projects .card-wrapper {
+  margin: 1rem 0;
+}
+
 #tech-projects .card {
   margin: 0 1rem;
   padding: 1.25rem;
