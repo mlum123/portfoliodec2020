@@ -84,6 +84,11 @@ h1 {
   }
 }
 
+/* section styling to avoid white space under footer on home page */
+#about {
+  min-height: 68vh;
+}
+
 /* Experience Page Styling */
 #journalism-experience-header,
 #on-campus-header {
@@ -236,4 +241,11 @@ h1 {
 #contact-info h2 {
   font-size: 1rem;
   font-weight: bold;
+}
+
+@media only screen and (min-height: 750px) {
+  /* section styling to avoid white space under footer on contact page */
+  #contact {
+    min-height: 63vh;
+  }
 }
