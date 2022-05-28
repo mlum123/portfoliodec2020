@@ -163,6 +163,17 @@ h1 {
   }
 }
 
+.modal-img-fig {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 0.8rem;
+}
+
+.modal-img-caption {
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
 .close,
 .close:focus,
 .close:active,

@@ -150,6 +150,73 @@
 
             <div class="card-wrapper col-12 col-md-6 col-lg-4">
               <div class="card h-100">
+                <h4 class="card-title text-center">Cinematic Feature Labeling</h4>
+                <h5 class="text-center">(March - April 2022)</h5>
+                <br>
+                <div class="container-fluid">
+                  <img class="card-img-top" src="img/techprojects/Cinematic Feature Labeling Cut Detection.jpg" alt="Cinematic Feature Labeling" />
+                  <div class="card-body">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary mx-auto d-block" data-toggle="modal" data-target="#cinematicfeaturelabelingmodal">
+                      project details
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="cinematicfeaturelabelingmodal" tabindex="-1" role="dialog" aria-labelledby="cinematicfeaturelabelinglabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h4 class="modal-title" id="cinematicfeaturelabelinglabel">Cinematic Feature Labeling (March - April 2022)</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                              <figure class="modal-img-fig">
+                                <img class="modal-img" src="img/techprojects/Cinematic Feature Labeling Head Localization.jpg" alt="Cinematic Feature Labeling Head Localization" />
+                                <figcaption class="modal-img-caption">
+                                  Head localization results for a frame from The Departed. The ground-truth head bounding box is shown in yellow,
+                                  while my Haar cascade system-detected head bounding box is shown in blue.
+                                </figcaption>
+                              </figure>
+                              <figure class="modal-img-fig">
+                                <img class="modal-img" src="img/techprojects/Cinematic Feature Labeling Cut Detection.jpg" alt="Cinematic Feature Labeling Cut Detection" />
+                                <figcaption class="modal-img-caption">
+                                  Visualization of Lucas-Kanade optical flow for a clip from The King's Speech. The lines illustrate each point's cumulative displacement over previous frames of the shot.
+                                </figcaption>
+                              </figure>
+                              <ul>
+                                <li>
+                                  Analyzed classical methods for automated extension of the <a href="https://graphics.stanford.edu/~kbreeden/gazedata.html" target="_blank">Gaze Data for the Analysis of Attention in Feature Films</a>,
+                                  a dataset containing 15 film clips annotated frame-by-frame for features such as faces and cuts, as well as eye-tracking data for 21 humans viewing those clips
+                                </li>
+                                <li>
+                                  Used Haar cascades for head detection and localization, optimizing performance with multiple cascades
+                                </li>
+                                <li>
+                                  Applied Lucas-Kanade optical flow to cut detection, analyzing how an optical flow cut detection system is affected by genre, camerawork, and action internal to individual shots
+                                </li>
+                                <li>
+                                  Wrote a 7-page research paper on my findings
+                                </li>
+                                <li>
+                                  <strong>Technologies:</strong> Python, OpenCV, Matplotlib
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrapper col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
                 <h4 class="card-title text-center">Anyone Can Draw</h4>
                 <h5 class="text-center">(April - May 2021)</h5>
                 <br>
